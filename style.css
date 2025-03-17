@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #FA7070;
+    --color-secondary: #4cfff9;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
+    --color-button: rgb(233, 29, 233);
     --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-text: #131ef5;
     --color-white: #FFFFFF;
 }
 
@@ -84,7 +84,7 @@ body {
     padding: 10px;
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .button-container {
@@ -130,7 +130,7 @@ ul {
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px 0;
 }
 
@@ -160,3 +160,4 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
